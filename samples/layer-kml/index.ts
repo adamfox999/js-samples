@@ -15,7 +15,7 @@ function initMap(): void {
   );
 
   const ctaLayer = new google.maps.KmlLayer({
-    url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",
+    url: "samples\layer-kml\LeestonePark.kml",
     map: map,
   });
 }
