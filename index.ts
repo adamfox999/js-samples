@@ -8,13 +8,13 @@ function initMap(): void {
   const map = new google.maps.Map(
     document.getElementById("map") as HTMLElement,
     {
-      zoom: 11,
-      center: { lat: 41.876, lng: -87.624 },
+      zoom: 16,
+      center: { lat: 51.928589195255995, lng: -0.6524950219463939 },
     }
   );
 
   const ctaLayer = new google.maps.KmlLayer({
-    url: "https://googlearchive.github.io/js-v2-samples/ggeoxml/cta.kml",
+    url: 'js-samples\LeestonePark.kml',
     map: map,
   });
 }
